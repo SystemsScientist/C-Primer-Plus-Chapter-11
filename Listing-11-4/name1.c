@@ -10,7 +10,7 @@ int main(void) {
 	char name[MAX]; // allot space
 	
 	printf("Hi, what's your name?\n");
-	fgets(name, MAX, stdin);
+	fgets(name, MAX, stdin); // replace gets() with fgets()
 
 	name[strcspn(name, "\n")] = 0; // added to buffer '\n'
 	printf("Nice name, %s.\n", name);
