@@ -1,4 +1,5 @@
 // name2.c -- reads a name
+// note: gets() was deprecated in C11
 
 #include <stdio.h>
 #include <string.h> // used to buffer '\n'
