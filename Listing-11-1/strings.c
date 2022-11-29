@@ -1,6 +1,8 @@
 // strings.c -- stringing the user along
+// note: gets() was deprecated in C11
 
 #include <stdio.h>
+#include <string.h> // used to buffer '\n'
 
 #define MSG "You must have many talents. Tell me some."
 #define LIM 5
@@ -31,12 +33,14 @@ int main(void) {
 		puts(mytal[i]);
 	puts(m3);
 
-	fgets(name, 81, stdin); // replace gets() with fgets() 
+	fgets(name, 81, stdin); // replace gets() with fgets()
+	name[strcspn(name, "\n")] = 0; // added to buffer '\n' 
 	printf("Well, %s, %s\n", name, MSG);
 	printf("%s\n%s\n", m1, m2);
 
 	fgets(talents, 81, stdin); // replace gets() with fgets()
 	puts("Let's see if I've got that list: ");
+	talents[strcspn(talents, "\n")] = 0; // added to buffer '\n'
 	puts(talents);
 	printf("Thanks for the information, %s.\n", name);
 
