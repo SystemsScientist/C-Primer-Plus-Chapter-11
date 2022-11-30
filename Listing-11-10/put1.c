@@ -8,6 +8,7 @@ void put1(const char * string);
 int main(void) {
 
 	put1("This is a test of the put1() function!\n");
+	put1("This second put1() ends at the null character.\n");
 
 	return 0;
 }
