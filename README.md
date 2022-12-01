@@ -11,9 +11,9 @@ wanted to show my work. That is, I used C and Vim on a Fedora
 manage directories and files as I work through Prata's C Primer
 Plus textbook.
 
-Please feel free to reach out to me if you have any questions
-or comments. In addition, feel free to utilize the solutions
-for your consumption and edification.
+Please feel free to reach out to me at mattewjohnson@snarkydata.com
+if you have any questions or comments. In addition, feel free to 
+utilize the solutions for your consumption and edification.
 
 ~ Matt
 
