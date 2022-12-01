@@ -25,17 +25,31 @@ To compile and execute the Chapter 11 files,
     (1) copy the code directly into your
         Integrated Development Environment (IDE) or text editor 
         such as Vim, Nano, or Emacs, 
-    (2) and either build and execute the files in your IDE 
+    (2) and either build and run the files in your IDE 
     (3) or use the following command-line scripts:
         
             $ gcc file1 file2 ... filen -o main
             $ ./main
 
-Note: Programs can have one file, two files, three files, and 
-      so on and so forth. Just follow the pattern. In addition, 
-      programs use main to name the program and ./main to execute
-      the program. Programs, can use program for a program name
-      and ./program to execute the program, or any other name
-      a programmer prefers. Just follow the pattern.
+Note: 
+
+Programs can have one file, two files, three files, and 
+so on and so forth. Just follow the pattern. In addition, 
+programs can use any name. For example, in most Chapter 11
+programs, main is used as the program name and thus ./main
+is used to to execute the program. Another example is that
+a program can use foo for a program name and ./foo to 
+execute a program:
+
+    (1) foo and ./foo
+
+            $ gcc main.c func1.c func2.c -o foo
+            $ ./foo
+
+    (2) daffy_duck and ./daffy_duck
+
+            $ gcc main.c func1.c func2.c -o daffy_duck
+            $ ./daffy_duck 
+
 
 
