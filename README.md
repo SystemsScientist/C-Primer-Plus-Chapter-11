@@ -1,7 +1,8 @@
 # C Primer Plus - Chapter 11 Exercises and Solutions
 
 This repository contains the Listings, Exercises, and Solutions
-for Chapter 11 of C Primer Plus, 5th edition, by Stephen Prata.
+for Chapter 11 of C Primer Plus, 5th edition, by Stephen Prata,
+which covers Character Strings and String Functions.
 
 I created this repository for two reasons. First, I wanted to
 incorporate Git and GitHub into my workflow, so I could give
