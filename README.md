@@ -29,7 +29,7 @@ To compile and execute the Chapter 11 files,
     (2) and either build and run the files in your IDE 
     (3) or use the following command-line scripts:
         
-            $ gcc file1 file2 ... filen -o main
+            $ gcc file1.c file2.c ... filen.c -o main
             $ ./main
 
 Note: 
