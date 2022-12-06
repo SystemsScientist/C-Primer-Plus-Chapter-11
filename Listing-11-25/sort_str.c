@@ -19,7 +19,7 @@ int main(void) {
 
 	printf("Input up to %d lines, and I will sort them.\n", LIM);
 	printf("To stop, press the Enter key at a line's start.\n");
-	while (ct < LIM && fgets(input[ct], SIZE, stdin) != NULL && input[ct][0] != '\0') {
+	while ((ct < LIM) && (fgets(input[ct], SIZE, stdin) != NULL) && (input[ct][0] != '\0')) {
 		ptstr[ct] = input[ct];
 		ct++;
 	}
